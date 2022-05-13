@@ -1,0 +1,1 @@
+docker-compose -f Selenium-Grid.yaml down

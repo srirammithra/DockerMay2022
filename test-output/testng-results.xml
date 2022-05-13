@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-10T18:14:16 IST" name="DockerSuite" finished-at="2022-05-10T18:14:26 IST" duration-ms="9399">
+    <groups>
+    </groups>
+    <test started-at="2022-05-10T18:14:16 IST" name="DockerTest1" finished-at="2022-05-10T18:14:26 IST" duration-ms="9361">
+      <class name="docker.A1">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:docker.A1@a2431d0]" started-at="2022-05-10T18:14:16 IST" name="SetUp" finished-at="2022-05-10T18:14:22 IST" duration-ms="5836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DockerTest1()[pri:0, instance:docker.A1@a2431d0]" started-at="2022-05-10T18:14:22 IST" name="DockerTest1" finished-at="2022-05-10T18:14:26 IST" duration-ms="3507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DockerTest1 -->
+      </class> <!-- docker.A1 -->
+    </test> <!-- DockerTest1 -->
+    <test started-at="2022-05-10T18:14:16 IST" name="DockerTest2" finished-at="2022-05-10T18:14:26 IST" duration-ms="9399">
+      <class name="docker.A2">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:docker.A2@14555e0a]" started-at="2022-05-10T18:14:16 IST" name="SetUp" finished-at="2022-05-10T18:14:22 IST" duration-ms="5946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DockerTest2()[pri:0, instance:docker.A2@14555e0a]" started-at="2022-05-10T18:14:22 IST" name="DockerTest2" finished-at="2022-05-10T18:14:26 IST" duration-ms="3442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DockerTest2 -->
+      </class> <!-- docker.A2 -->
+    </test> <!-- DockerTest2 -->
+  </suite> <!-- DockerSuite -->
+</testng-results>

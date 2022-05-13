@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DockerSuite" parallel="tests" thread-count="6">
+  <test name="DockerTest1">
+    <classes>
+      <class name="docker.A1"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="DockerTest2">
+    <classes>
+      <class name="docker.A2"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="DockerTest3">
+    <classes>
+      <class name="docker.B1"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="DockerTest4">
+    <classes>
+      <class name="docker.B2"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="DockerTest5">
+    <classes>
+      <class name="docker.C1"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="DockerTest6">
+    <classes>
+      <class name="docker.C2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,1 @@
+docker-compose -f Selenium-Grid.yaml up --scale chrome=2 --scale firefox=2 --scale edge=2 >> Output.txt
