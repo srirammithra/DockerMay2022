@@ -5,7 +5,7 @@ agent any
 stages
 {
 
-stage('BUILD')
+stage('CLEAN')
 {
 steps
 {
@@ -13,11 +13,11 @@ bat "mvn clean"
 }
 }
 
-stage('DEPLOY')
+stage('COMPILE')
 {
 steps
 {
-echo "DEPLOY STAGE DONE"
+bat "mvn compile"
 }
 }
 
