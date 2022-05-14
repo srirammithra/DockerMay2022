@@ -1,5 +1,5 @@
 #Ignore target folder
-/target/*
+target/
 
 #Ignore test-output folder
-/test-output/*
+test-output/
